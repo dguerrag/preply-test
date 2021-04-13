@@ -5,7 +5,7 @@ import {
 } from "react-notifications";
 import "react-notifications/lib/notifications.css";
 import "./App.css";
-import { withOnlineStatus } from "./common/wrappers/withOnlineStatus";
+import { withOnlineStatus } from "./common/hoc/withOnlineStatus";
 
 let timeout = null;
 
